@@ -7,7 +7,7 @@ import java.util.Random;
 
 
 /*
- * Modified version of Commons Daemon provided sample ProcrunService
+ * A Modified version of Commons Daemon provided sample ProcrunService
  * The orginal can be found here
  * http://svn.apache.org/viewvc/commons/proper/daemon/trunk/src/samples/ProcrunService.java?view=markup
  */
