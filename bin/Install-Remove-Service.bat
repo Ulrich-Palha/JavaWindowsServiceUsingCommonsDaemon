@@ -24,7 +24,7 @@ set EXECUTABLE_NAME=%SERVICE_NAME%.exe
 set EXECUTABLE=%APPLICATION_SERVICE_HOME%\bin\%EXECUTABLE_NAME%
 
 ::-- 2. The fully qualified start and stop classes
-set CG_START_CLASS=com.ulrichpalha.service.ProcrunService
+set CG_START_CLASS=com.ulrichpalha.service.LoggerService
 set CG_STOP_CLASS=%CG_START_CLASS%
 
 ::-- 3. The start and stop methods for the class(es) in 2 above
