@@ -21,7 +21,7 @@ cd "%CURRENT_DIR%"
 ::-- 1. This name should match the name you gave to the prunsrv executable
 set SERVICE_NAME=LoggerService
 set EXECUTABLE_NAME=%SERVICE_NAME%.exe
-set EXECUTABLE=%APPLICATION_SERVICE_HOME%\%EXECUTABLE_NAME%
+set EXECUTABLE=%APPLICATION_SERVICE_HOME%\bin\%EXECUTABLE_NAME%
 
 ::-- 2. The fully qualified start and stop classes
 set CG_START_CLASS=com.ulrichpalha.service.ProcrunService
