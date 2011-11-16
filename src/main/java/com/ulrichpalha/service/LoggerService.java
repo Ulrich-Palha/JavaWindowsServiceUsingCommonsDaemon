@@ -74,7 +74,7 @@ public class LoggerService implements Runnable {
 	 */
 	private static File tmpFile(String filename) {
 		return new File(System.getProperty("java.io.tmpdir"),
-				filename != null ? filename : "ProcrunService.tmp");
+				filename != null ? filename : "LoggerService.tmp");
 	}
 
 	/**
@@ -115,7 +115,7 @@ public class LoggerService implements Runnable {
 
 		final int argc = args.length;
 
-		logger.log("ProcrunService called with " + argc
+		logger.log("LoggerService called with " + argc
 				+ " arguments from thread: " + Thread.currentThread());
 		for (int i = 0; i < argc; i++) {
 			System.out.println("[" + i + "] " + args[i]);
