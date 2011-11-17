@@ -42,7 +42,7 @@ set CG_PATH_TO_JAR_CONTAINING_SERVICE=%APPLICATION_SERVICE_HOME%\target\JavaWind
 set CG_STARTUP_TYPE=auto
 
 ::-- 7. Set this if you want to use a different JVM than configured in your registry, or if it is not configured in windows registry
-set CG_PATH_TO_JVM=C:\MyData\Development\glassfish3\jdk\jre\bin\server\jvm.dll
+set CG_PATH_TO_JVM=%JAVA_HOME%\jre\bin\server\jvm.dll
 
 ::---- Set other options via environment variables, just as an example -------
 set PR_DESCRIPTION=Logger Service v1.0
