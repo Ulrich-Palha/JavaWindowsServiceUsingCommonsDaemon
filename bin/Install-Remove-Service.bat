@@ -72,7 +72,7 @@ goto end
 echo Installing service '%SERVICE_NAME%' ...
 echo.
 
-set EXECUTE_STRING= %EXECUTABLE% //IS//%SERVICE_NAME%  --Startup %CG_STARTUP_TYPE%  --StartClass %CG_START_CLASS% --StopClass %CG_STOP_CLASS%
+set EXECUTE_STRING= "%EXECUTABLE%" //IS//%SERVICE_NAME%  --Startup %CG_STARTUP_TYPE%  --StartClass %CG_START_CLASS% --StopClass %CG_STOP_CLASS%
 call:executeAndPrint %EXECUTE_STRING%
 
 set EXECUTE_STRING= "%EXECUTABLE%" //US//%SERVICE_NAME% --StartMode jvm --StopMode jvm --Jvm %CG_PATH_TO_JVM%
